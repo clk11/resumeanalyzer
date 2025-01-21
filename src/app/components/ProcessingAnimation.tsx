@@ -25,10 +25,10 @@ export default function ProcessingAnimation({ onComplete }: ProcessingAnimationP
       });
     }, 2000);
 
-    // Complete after 10 seconds
+    // Complete after 8 seconds
     const timer = setTimeout(() => {
       onComplete();
-    }, 10000);
+    }, 8000);
 
     return () => {
       clearInterval(messageInterval);
