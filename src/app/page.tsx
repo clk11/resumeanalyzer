@@ -115,7 +115,7 @@ export default function Home() {
               exit={{ opacity: 0 }}
             >
               <h1 className="text-3xl md:text-4xl font-bold text-center mb-6">
-                Drop your résumé here
+                Drop your resume here
               </h1>
 
               <div
